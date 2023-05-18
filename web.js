@@ -747,7 +747,7 @@ async function ogsCall(options) {
             return result.ogImage.url;
         });
     } catch (error) {
-        console.log('에러: ', error);
+        console.log('뉴스 에러: ', error);
     }
 }
 
