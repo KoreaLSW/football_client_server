@@ -661,6 +661,7 @@ app.get('/api/footballdata/news', function (req, res) {
             const value = JSON.parse(body);
             let count = 0;
             value.items.map((item, index, row) => {
+                console.log('뉴스 아이템:', item);
                 let options = {
                     url: item.link,
                 };
@@ -742,6 +743,7 @@ async function ogsCall(options) {
             // console.log('error:', error); // This returns true or false. True if there was an error. The error itself is inside the results object.
             // console.log('result:', result); // This contains all of the Open Graph results
             // console.log('response:', response); // This contains the HTML of page
+            console.log('뉴스사진:', result.ogImage.url);
             return result.ogImage.url;
         });
     } catch (error) {
