@@ -63,10 +63,14 @@ app.use(
 );
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(express.static(path.join('/client/football_client_ts/build')));
+app.use(
+    express.static(path.join(__dirname + '/client/football_client_ts/build'))
+);
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join('/client/football_client_ts/build/index.html'));
+    res.sendFile(
+        path.join(__dirname + '/client/football_client_ts/build/index.html')
+    );
 });
 
 app.get('/api/usercheck/:id', (req, res) => {
