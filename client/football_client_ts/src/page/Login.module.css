@@ -1,0 +1,70 @@
+.login {
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.login_container {
+    max-width: 700px;
+    margin: auto;
+}
+
+.login .login_container .title {
+    font-size: 2rem;
+}
+
+.login .login_container .login_form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.login .login_container .login_form span {
+    margin-bottom: 0.5rem;
+}
+
+.login .login_container .login_form input {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #cacdd2;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.login .login_container .login_form .git_box {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #cacdd2;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.login .login_container .login_form .login_btn {
+    width: 100%;
+    height: 3rem;
+    border: 1px solid #cacdd2;
+    border-radius: 7px;
+    margin-top: 1rem;
+    color: white;
+    background-color: #0090f9;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 764px) {
+    .login .login_container .login_form {
+        width: 90%;
+        margin: auto;
+    }
+}

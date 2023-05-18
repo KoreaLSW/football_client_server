@@ -1,0 +1,67 @@
+.footballvideo {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.footballvideo .footballvideo_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footballvideo .footballvideo_container .title_box {
+    position: relative;
+    display: flex;
+    height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footballvideo .footballvideo_container .title_box h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footballvideo .footballvideo_container .title_box select {
+    position: absolute;
+    height: 3rem;
+    top: 0;
+    right: 0;
+}
+
+.footballvideo .footballvideo_container .video_list {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    gap: 1rem;
+}
+
+.footballvideo .footballvideo_container .button_box {
+    width: 100%;
+    text-align: center;
+}
+
+.footballvideo .footballvideo_container .button_box button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background-color: #0090f9;
+    border-radius: 0.3rem;
+    border: 1px solid #0090f9;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 764px) {
+    .footballvideo .footballvideo_container {
+        margin: 0;
+    }
+
+    .footballvideo .footballvideo_container .video_list {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+        gap: 0.5rem;
+    }
+}

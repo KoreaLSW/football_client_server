@@ -1,0 +1,41 @@
+.footballinfo {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.footballinfo .footballinfo_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footballinfo .footballinfo_container .header {
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.footballinfo .footballinfo_container .header .title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footballinfo .footballinfo_container .header select {
+    margin-left: 1rem;
+}
+
+@media screen and (max-width: 764px) {
+    .footballinfo .footballinfo_container .header {
+        align-items: center;
+    }
+
+    .footballinfo .footballinfo_container .header .title {
+        position: static;
+    }
+
+    .footballinfo .footballinfo_container .header select {
+        height: 2.5rem;
+    }
+}

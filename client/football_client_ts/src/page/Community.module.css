@@ -1,0 +1,142 @@
+.community {
+    width: 100%;
+}
+
+.community_container {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.community .community_container .title_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.community .community_container .title_box h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.community .community_container .button {
+    height: 2.5rem;
+    padding: 0.5rem;
+    background-color: #0090f9;
+    border-radius: 0.3rem;
+    border: 1px solid #0090f9;
+    color: white;
+    cursor: pointer;
+}
+
+.community .community_container .title_box .button span {
+    margin-left: 0.5rem;
+}
+
+.community .community_container .title_box .right_box {
+    display: flex;
+}
+
+.community .community_container .title_box .right_box select {
+    margin-right: 0.5rem;
+}
+
+.community .community_container .title_box .right_box .form input {
+    height: 2rem;
+    border: 1px solid #cacdd2;
+    border-radius: 7px;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.community .community_container .title_box .right_box .form select {
+    margin-left: 0.5rem;
+    height: 100%;
+}
+
+.community .community_container .community_list {
+    margin-top: 1rem;
+}
+.community .community_container .community_list .community_menubar {
+    max-width: 1200px;
+    background-color: #0090f9;
+    padding: 1rem 0;
+}
+
+.community .community_container .community_list .community_menubar span {
+    color: white;
+    font-size: 1rem;
+}
+
+.community .community_container .community_list .community_menubar .title {
+    text-align: center;
+    display: inline-block;
+    width: 55%;
+}
+
+.community .community_container .community_list .community_menubar .user {
+    text-align: center;
+    display: inline-block;
+    width: 15%;
+}
+
+.community .community_container .community_list .community_menubar .date {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+}
+
+.community .community_container .community_list .community_menubar .views {
+    display: inline-block;
+    text-align: center;
+    width: 10%;
+}
+
+.community .community_container .community_list .community_menubar .thumb {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+}
+
+@media screen and (max-width: 764px) {
+    .community .community_container .title_box {
+        flex-direction: column;
+    }
+
+    .community .community_container .button {
+        width: 90%;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .community .community_container .community_list .community_menubar {
+        max-width: 100%;
+    }
+
+    .community .community_container .community_list .community_menubar .title {
+        font-size: 0.8rem;
+        width: 40%;
+    }
+
+    .community .community_container .community_list .community_menubar .user {
+        font-size: 0.8rem;
+        width: 15%;
+    }
+
+    .community .community_container .community_list .community_menubar .date {
+        font-size: 0.8rem;
+        width: 20%;
+    }
+
+    .community .community_container .community_list .community_menubar .views {
+        font-size: 0.8rem;
+        width: 15%;
+    }
+
+    .community .community_container .community_list .community_menubar .thumb {
+        font-size: 0.8rem;
+        width: 10%;
+    }
+}

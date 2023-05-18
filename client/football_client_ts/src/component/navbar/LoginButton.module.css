@@ -1,0 +1,39 @@
+.login_box {
+    display: flex;
+}
+
+.login_box div {
+    margin-right: 1rem;
+}
+
+.login_box .login_button {
+    padding: 0.5rem;
+    background-color: transparent;
+    border-radius: 0.3rem;
+    border: 1px solid #cacdd2;
+}
+
+.login_box .sign_up_button {
+    padding: 0.5rem;
+    background-color: #0090f9;
+    border-radius: 0.3rem;
+    border: 1px solid #0090f9;
+    color: white;
+}
+
+@media screen and (max-width: 764px) {
+    .login_box {
+        flex-direction: column;
+    }
+
+    .login_box div {
+        width: 80%;
+        margin-right: 0rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    .login_box .login_button {
+        margin-bottom: 1rem;
+    }
+}

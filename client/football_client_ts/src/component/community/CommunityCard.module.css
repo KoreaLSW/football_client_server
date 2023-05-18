@@ -1,0 +1,87 @@
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #999999;
+    cursor: pointer;
+}
+
+.item .title {
+    text-align: center;
+    display: inline-block;
+    width: 55%;
+}
+
+.item .user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    width: 15%;
+}
+
+.item .user img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.2rem;
+    object-fit: cover;
+}
+
+.item .date {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+}
+
+.item .views {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+}
+
+.item .thumb {
+    text-align: center;
+    display: inline-block;
+    width: 10%;
+}
+
+@media screen and (max-width: 764px) {
+    .item .title {
+        width: 40%;
+        font-size: 0.8rem;
+    }
+
+    .item .user {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        width: 15%;
+        font-size: 0.8rem;
+    }
+
+    .item .user img {
+        width: 2rem;
+        height: 2rem;
+        margin-bottom: 0.2rem;
+        margin-right: 0rem;
+        object-fit: cover;
+    }
+
+    .item .date {
+        width: 20%;
+        font-size: 0.8rem;
+    }
+
+    .item .views {
+        width: 15%;
+        font-size: 0.8rem;
+    }
+
+    .item .thumb {
+        width: 10%;
+        font-size: 0.8rem;
+    }
+}

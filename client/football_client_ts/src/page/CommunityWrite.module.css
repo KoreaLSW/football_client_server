@@ -1,0 +1,95 @@
+.communitywrite {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.communitywrite .communitywrite_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.communitywrite .communitywrite_container .title {
+    text-align: center;
+}
+
+.communitywrite .communitywrite_container .form {
+    margin-top: 3rem;
+}
+
+.communitywrite .communitywrite_container .form .title_box {
+    display: flex;
+    align-items: center;
+}
+
+.communitywrite .communitywrite_container .form .title_box input {
+    width: 90%;
+    height: 2rem;
+    border: 1px solid #cacdd2;
+    border-radius: 7px;
+    padding: 0 1rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.communitywrite .communitywrite_container .form .form_content_title {
+    margin-top: 1rem;
+}
+
+.communitywrite .communitywrite_container .form .form_content_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 50rem;
+    border: 1px solid #cacdd2;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+
+.communitywrite .communitywrite_container .form .form_content_container img {
+    max-width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.communitywrite
+    .communitywrite_container
+    .form
+    .form_content_container
+    .form_content_container_input {
+    width: 95%;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.communitywrite .communitywrite_container .form .form_img_input_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.communitywrite .communitywrite_container .form .form_img_input_box input {
+    margin-bottom: 0.5rem;
+}
+
+.communitywrite .communitywrite_container .form button {
+    padding: 0.5rem;
+    background-color: #0090f9;
+    border-radius: 0.3rem;
+    border: 1px solid #0090f9;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 764px) {
+    .communitywrite .communitywrite_container .title {
+        font-size: 1.5rem;
+    }
+
+    .communitywrite .communitywrite_container {
+        width: 90%;
+    }
+}

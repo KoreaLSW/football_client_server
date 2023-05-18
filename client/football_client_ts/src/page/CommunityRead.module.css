@@ -1,0 +1,152 @@
+.communityRead {
+    width: 100%;
+    padding-top: 1rem;
+}
+
+.communityRead .communityRead_container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.communityRead .communityRead_container .title_box {
+    display: flex;
+    align-items: center;
+}
+
+.communityRead .communityRead_container .title_box span {
+    font-size: 1rem;
+}
+
+.communityRead .communityRead_container .title_box h1 {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    font-weight: normal;
+}
+
+.communityRead .communityRead_container .user_box {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.communityRead .communityRead_container .user_box img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    margin-left: 0.5rem;
+    object-fit: cover;
+}
+
+.communityRead .communityRead_container .user_box p {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+}
+.communityRead .communityRead_container .views_commend_date_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.communityRead .communityRead_container .button_box {
+    margin-top: 0.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #999999;
+}
+
+.communityRead .communityRead_container .button_box button {
+    padding: 0.5rem;
+    background-color: #0090f9;
+    border-radius: 0.3rem;
+    border: 1px solid #0090f9;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+.communityRead .communityRead_container .left_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.communityRead .communityRead_container .left_box span {
+    margin-right: 1rem;
+}
+
+.communityRead .communityRead_container .content_box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.communityRead .communityRead_container .content_box img {
+    max-width: 30rem;
+    margin-bottom: 1rem;
+}
+
+.communityRead .communityRead_container .content_box p {
+    word-break: break-all;
+}
+
+.communityRead .communityRead_container .comment h2 {
+    padding: 1rem 0;
+    border-bottom: 1px solid #999999;
+}
+
+.communityRead .communityRead_container .commentWrith {
+    margin-bottom: 5rem;
+}
+
+.communityRead .communityRead_container .commentWrith h2 {
+    margin: 1rem 0;
+}
+
+.communityRead .communityRead_container .commentWrith div {
+    width: 100%;
+}
+
+.communityRead .communityRead_container .commentWrith div textarea {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    outline: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    resize: none;
+    overflow-y: hidden;
+}
+
+.communityRead .communityRead_container .commentWrith button {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    background-color: #0090f9;
+    border-radius: 0.3rem;
+    border: 1px solid #0090f9;
+    color: white;
+    cursor: pointer;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 764px) {
+    .communityRead .communityRead_container {
+        width: 90%;
+    }
+    .communityRead .communityRead_container .title_box,
+    .communityRead .communityRead_container .user_box,
+    .communityRead .communityRead_container .views_commend_date_box,
+    .communityRead .communityRead_container .button_box {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 0.5rem;
+    }
+
+    .communityRead .communityRead_container .title_box h1 {
+        font-size: 1.2rem;
+    }
+
+    .communityRead .communityRead_container .right_box {
+        display: flex;
+        flex-direction: column;
+    }
+}

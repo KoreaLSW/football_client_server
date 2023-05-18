@@ -1,0 +1,16 @@
+{
+    "dependencies": {
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "express-session": "^1.17.3",
+        "http": "^0.0.1-security",
+        "mysql": "^2.18.1",
+        "open-graph-scraper": "^5.2.3",
+        "passport": "^0.6.0",
+        "passport-google-oauth2": "^0.2.0",
+        "passport-local": "^1.0.0",
+        "request": "^2.88.2",
+        "utils": "^0.3.1"
+    }
+}

@@ -1,0 +1,32 @@
+.player {
+    width: 100%;
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.player p {
+    width: 16.6667%;
+    text-align: center;
+}
+
+.player .team {
+    width: 16.6667%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.player .team img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 764px) {
+    .player .team {
+        justify-content: center;
+    }
+    .player .team p {
+        display: none;
+    }
+}

@@ -1,0 +1,35 @@
+.list {
+    max-width: 25rem;
+    height: 4.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #999999;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.list img {
+    width: 4rem;
+    height: 3.5rem;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.list .text_box .title {
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.list .text_box .description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+@media screen and (max-width: 1200px) {
+    .list {
+        margin-bottom: 1rem;
+    }
+}

@@ -1,0 +1,13 @@
+.loading_box {
+    width: 100%;
+    text-align: center;
+}
+
+.loading_box p {
+    margin-bottom: 1rem;
+}
+
+.loading {
+    width: 10rem;
+    height: 10rem;
+}

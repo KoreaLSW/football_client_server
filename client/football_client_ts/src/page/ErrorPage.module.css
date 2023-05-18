@@ -1,0 +1,23 @@
+.error {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.error .icon {
+    font-size: 5rem;
+}
+
+.error .text {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 764px) {
+    .error {
+        width: 90%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,20 @@
+.footballplayer {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footballplayer .title {
+    text-align: center;
+}
+
+.footballplayer .menu_list {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footballplayer .menu_list li {
+    width: 16.6667%;
+    text-align: center;
+}

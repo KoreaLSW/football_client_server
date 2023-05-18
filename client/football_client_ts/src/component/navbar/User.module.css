@@ -1,0 +1,50 @@
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user .img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    margin-right: 1rem;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.user .nick {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.user .logout {
+    padding: 0.5rem;
+    background-color: #999999;
+    border-radius: 0.3rem;
+    border: 1px solid #cacdd2;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 764px) {
+    .user {
+        flex-direction: column;
+    }
+
+    .user .img {
+        width: 5rem;
+        height: 5rem;
+    }
+    .user .nick {
+        margin-right: 0rem;
+        margin-top: 1rem;
+        cursor: pointer;
+    }
+    .user .logout {
+        width: 80%;
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+}

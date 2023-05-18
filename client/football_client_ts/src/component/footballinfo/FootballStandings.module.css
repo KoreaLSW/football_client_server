@@ -1,0 +1,21 @@
+.standing {
+    width: 100%;
+}
+
+.standing .title {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.standing .menu {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.standing .menu li {
+    width: 10%;
+    text-align: center;
+}
+
+@media screen and (max-width: 764px) {
+}
