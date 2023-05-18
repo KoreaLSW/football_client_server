@@ -737,7 +737,7 @@ function date() {
 }
 
 async function ogsCall(options) {
-    console.log('뉴스옵션:', data);
+    console.log('뉴스옵션:', options);
     try {
         return await ogs(options).then((data) => {
             console.log('뉴스데이타!!!@@:', data);
